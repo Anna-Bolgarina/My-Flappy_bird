@@ -1,4 +1,5 @@
 canvas.addEventListener("click", (event) => {
+  
   //определяем координаты клика
   const { left, top } = canvas.getBoundingClientRect();
   const clickX = event.clientX - left;
